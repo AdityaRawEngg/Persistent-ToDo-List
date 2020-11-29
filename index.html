@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This a persistent toDo list Implemented using JS"
+    />
+    <meta name="keywords" content="Javascript html css" />
+    <meta name="Author" content="Aditya Shukla" />
+    <title>To Do List</title>
+  </head>
+  <link rel="stylesheet" href="./style/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+  <script src="./src/main.js" type="module"></script>
+  <body>
+    <div class="toDoList">
+      <h1>To Do list</h1>
+      <form action="" name="userInput">
+        <input
+          type="text"
+          name="task"
+          id="task"
+          placeholder="Add new Task"
+          autofocus
+        />
+        <button id="submit">Submit</button>
+      </form>
+      <div class="taskListDiv">
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+  </body>
+</html>
