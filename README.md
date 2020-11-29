@@ -6,7 +6,7 @@ This application is build using vanilla JavaScript features.
 
 Task can be added, marked as completed and deleted.
 
-Once Task is added it is stored in local Storage and will not be deleted until the browser is closed
+Once Task is added it is stored in local Storage.
 
 onclicking check box task will be marked as completed.
 
