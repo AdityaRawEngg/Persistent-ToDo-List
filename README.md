@@ -14,5 +14,5 @@ User can delete completed task.
 
 # Demo
 
-Live Demo link:  
+Live Demo link:  https://adityarawengg.github.io/Persistent-ToDo-List/
 
